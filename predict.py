@@ -2,7 +2,7 @@ import numpy as np
 from keras.utils import load_img, img_to_array
 from keras.models import load_model
 
-longitud, altura = 100, 100
+longitud, altura = 256, 256
 modelo = './modelo/modelo.h5'
 pesos_modelo = './modelo/pesos.h5'
 cnn = load_model(modelo)

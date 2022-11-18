@@ -17,8 +17,8 @@ data_validacion = './data/validacion'
 """
 Parameters
 """
-epocas=10
-longitud, altura = 100, 100
+epocas=20
+longitud, altura = 256, 256
 batch_size = 32
 pasos = 1000
 validation_steps = 300

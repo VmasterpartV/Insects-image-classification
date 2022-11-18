@@ -1,5 +1,5 @@
 import numpy as np
-from tensorflow.keras.utils import load_img, img_to_array
+from keras.utils import load_img, img_to_array
 from keras.models import load_model
 
 longitud, altura = 100, 100
